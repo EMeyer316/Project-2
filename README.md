@@ -1,11 +1,12 @@
-# Air Pollution Nationwide
-Continued from project 1, we researched trends in outdoor air quality measures based on established air quality indicators from the U.S. Environmental Protection Agency (EPA) in Tristate and Nationwide. We created data visualizations using Stacked Bar, Multi-Series Line Charts, Pie Charts, and Geo-Mapping
+# Air Pollution in the Tristate & Nationwide: Trends & Health Effects
+
+Continued from project 1, we researched trends in outdoor air quality measures based on established air quality indicators from the U.S. Environmental Protection Agency (EPA) in Tristate and Nationwide. We created data visualizations using Stacked Bar, Multi-Series Line Charts, Pie Charts, and Geo-Mapping.
 
 Key Questions:
 
-What are the trends for Air Quality Indicators (AQIs) for the tristate area over the last 40 years?
-What are the trends in the air quality-related health outcomes in the tristate area over the last 10 years?
-Are specific air pollutant gases more closely associated with negative health outcomes than others in the tristate area?
+How do the trends for Air Quality Indicators (AQIs) for the tristate area over the last 40 years compare to nationwide rates?
+In the tristate area, do any specfic counties have drastic changes over the past 40 years?
+How do the specific air pollutant gases differ in other states in comparison to the tristate area?
 
 Background:
 
@@ -21,22 +22,10 @@ EPA Individual air pollutant data (gases)
 Utilized zip_download function to download the large datasets for data more than a decade
 Utilized Javascript to make a map with leaflet.js geo-mapping capabilities to visually compare AQI levels from 1980 and 2018.
 
-Overall:
-
-Air quality in the tristate area has improved since 1980 and over our assessment period (2006 – 2016)
-Forty-year data shows consistent increases in the number of Acceptable AQ days and a corresponding decrease in Poor AQ days.
-Individual Air Pollutants (average concentration)
-2006 to 2009 – consistent decrease
-2010 to 2013 – some increases noted
-2013 to 2016 – mostly decreasing trend for CO, SO2; some increases noted for NO2, O3
-Hospitalizations (Asthma & COPD) & ED visits (Asthma)
-Asthma: Increases noted beginning in 2008 with ED visits remaining steady afterwards and a decreasing trend in asthma-related admissions
-COPD hospitalizations: Increase noted 2008 – 2011; subsequent decrease until 2015.
-Start of increasing trend noted in 2016, which coincides with increase in ozone concentrations. 
 
 Built With:
 
-Python, VS Studio, Jupyter Notebook, Javascript, Leaflet.js, Canvas.js
+Python, VS Studio, Jupyter Notebook, Javascript, Leaflet.js, Canvas.js, HTML
 
 Authors:
 
